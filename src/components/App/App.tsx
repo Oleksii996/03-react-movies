@@ -1,5 +1,5 @@
 import './App.module.css';
-import fetchMovies from '../../services/moviesService';
+import fetchMovies from '../../services/movieService';
 import SearchBar from '../SearchBar/SearchBar';
 import { useEffect, useState } from 'react';
 import type { Movie } from '../../types/movie';
