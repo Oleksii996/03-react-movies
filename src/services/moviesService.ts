@@ -14,7 +14,7 @@ export default async function fetchMovies(
     {
       headers: {
         accept: 'application/json',
-        Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZDcxYTM3YWI3ZjQwODMwMWEwZmE5MWEwODg2NTM1ZSIsIm5iZiI6MTc3MTYxMjI4OS40NTI5OTk4LCJzdWIiOiI2OTk4YTg4MTFkNTBmMmIwMjkzMDI5OWYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.1KMXOKg5IJkeCF-OJslu8e1nas_4vkLRLZo4lCFB7v0`,
+        Authorization: `Bearer ${myKey}`,
       },
       params: {
         query,
