@@ -13,6 +13,7 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
       onClose();
     }
   };
+  // Close modal on Escape key press and prevent background scrolling
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
